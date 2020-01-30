@@ -25,7 +25,7 @@ namespace CareerCloud.BusinessLogicLayer
 			return _repository.GetSingle(c => c.Id == id);
 		}
 
-		public virtual List<TPoco> GetAll()
+		 public virtual List<TPoco> GetAll()
 		{
 			return _repository.GetAll().ToList();
 		}
